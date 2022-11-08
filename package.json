@@ -1,0 +1,39 @@
+{
+  "name": "electron-forge-publisher-oss",
+  "version": "0.0.1",
+  "description": "Electron Forge Publisher that publish your distributable Electron app artifacts to Aliyun Object Storage Service（OSS）.",
+  "keywords": [
+    "electron",
+    "electron-forge",
+    "electron-forge-pugin",
+    "oss",
+    "electron-forge-publisher",
+    "electron-forge-publisher-oss"
+  ],
+  "homepage": "https://github.com/zouyongzou/electron-forge-publisher-oss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zouyongzou/electron-forge-publisher-oss"
+  },
+  "author": "zouyongzou",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs=false",
+    "dev": "rollup -c -w --bundleConfigAsCjs=false"
+  },
+  "devDependencies": {
+    "@electron-forge/async-ora": "^6.0.0",
+    "@electron-forge/publisher-base": "^6.0.0",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/ali-oss": "^6.16.4",
+    "rollup": "^3.0.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "ali-oss": "^6.17.1"
+  }
+}
