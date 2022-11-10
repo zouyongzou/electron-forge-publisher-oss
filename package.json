@@ -1,6 +1,6 @@
 {
   "name": "electron-forge-publisher-oss",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Electron Forge Publisher that publish your distributable Electron app artifacts to Aliyun Object Storage Service（OSS）.",
   "keywords": [
     "electron",
