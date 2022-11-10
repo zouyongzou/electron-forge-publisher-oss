@@ -1,6 +1,6 @@
 # Electron Forge Publisher OSS
 
-Electron Forge Publisher OSS that publish your distributable Electron app artifacts to Aliyun Object Storage Service（OSS）.
+Electron Forge Publisher OSS that publish your distributable Electron app artifacts to Aliyun Object Storage Service (OSS).
 
 English | [简体中文](./README-zh_CN.md) 
 
@@ -36,7 +36,7 @@ module.exports = {
     {
       name: 'electron-forge-publisher-oss',
       config: {
-        basePath: '/desktop'
+        basePath: '/desktop',
         region: 'oss-cn-hangzhou',
         bucket: 'my-bucket',
         accessKeyId: 'xxx',
@@ -82,9 +82,8 @@ autoUpdater.checkForUpdates()
 
 ## 📋 Change Log
 
-## 0.0.1
+## 1.0.0
 
 `2022-11-07`
 - 🆕 Electron Forge publish to OSS.
 - 🆕 Electron auto update.
-

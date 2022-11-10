@@ -36,7 +36,7 @@ module.exports = {
     {
       name: 'electron-forge-publisher-oss',
       config: {
-        basePath: '/desktop'
+        basePath: '/desktop',
         region: 'oss-cn-hangzhou',
         bucket: 'my-bucket',
         accessKeyId: 'xxx',
@@ -82,9 +82,8 @@ autoUpdater.checkForUpdates()
 
 ## 📋 更新日志
 
-### 0.0.1
+### 1.0.0
 
 `2022-11-07`
 - 🆕 Electron Forge 打包发布到 OSS。
 - 🆕 Electron 自动更新。
-
